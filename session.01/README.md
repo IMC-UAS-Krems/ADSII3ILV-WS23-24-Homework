@@ -12,7 +12,7 @@ The implementation must be stored inside a `session01.py` and must include:
 class Node():
 
     __init__(self, value: int):
-        """ Keep it simple and assume only integer values/keys"
+        """ Keep it simple and assume only integer values/keys """
         pass
 ```
 
