@@ -65,6 +65,7 @@ Below some sample unit tests (you might need to adjust the syntax)
 
 ```python
 import pytest
+from session01 import Node, Tree
 
 def test_nodes_can_have_only_one_parent_self_loop():
     root = Node(1)
