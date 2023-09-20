@@ -10,8 +10,7 @@ The implementation must be stored inside a `session01.py` and must include:
 
 ```
 class Node():
-
-    __init__(self, value: int):
+    def __init__(self, value: int):
         """ Keep it simple and assume only integer values/keys """
         pass
 ```
@@ -25,31 +24,31 @@ Implement the following operations:
 ```
 class Tree():
 
-    __init__(self, root: Node):
+    def __init__(self, root: Node):
         """ Create a new tree given a node """
         pass
-
-    find(self, value) -> Optional[Node]:
+        
+    def find(self, value) -> Optional[Node]:
         """ Return a node that contains the given value or None if no nodes contain it."""
         pass
 
-    find_all(self, value) -> List[Node]
+    def find_all(self, value) -> List[Node]:
         """ Return all nodes that contain the given value or an empty list if there are no such nodes in tree. """
         pass
         
-    add_child(self, parent: Node, child: Node) -> None :
+    def add_child(self, parent: Node, child: Node) -> None:
         """ Add a node at a given position, i.e., as a child of another node. Raise a ValueError in case the child node cannot be added. """
         pass
 
-    add_subtree(self, parent: Node, subtree: Tree) -> None :        
+    def add_subtree(self, parent: Node, subtree: 'Tree') -> None:
         """ Add a tree as a child of a node (Grafting). Raise a ValueError in case the subtree cannot be added. """
         pass
     
-    prune(self, node: Node) -> None:
+    def prune(self, node: Node) -> None:
         """ Delete the node and all its children recursively (Pruning). If the node does not belong to the tree, do nothing. """
         pass
         
-    print_values(self) -> None:
+    def print_values(self) -> None:
         """ Print all the elements in the tree to system output as comma separated list of values. 1,2,3 is ok; 1,   2 ,3 is NOT ok (spaces) """
         pass
 ```
