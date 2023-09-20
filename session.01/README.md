@@ -11,7 +11,7 @@ The implementation must be stored inside a `session01.py` and must include:
 ```
 class Node():
 
-    __init__(value: int):
+    __init__(self, value: int):
         """ Keep it simple and assume only integer values/keys"
         pass
 ```
@@ -25,7 +25,7 @@ Implement the following operations:
 ```
 class Tree():
 
-    __init__(root: Node):
+    __init__(self, root: Node):
         """ Create a new tree given a node """
         pass
 
