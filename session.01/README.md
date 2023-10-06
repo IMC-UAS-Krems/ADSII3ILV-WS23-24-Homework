@@ -1,4 +1,4 @@
-# Exercise Description
+# Homework 1 - Description
 
 Other, more complex data structures exist besides the ones you studied the previous semester. We will study in this semester Trees and Graphs as examples of more complex data structures.
 
