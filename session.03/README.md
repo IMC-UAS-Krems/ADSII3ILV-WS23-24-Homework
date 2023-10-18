@@ -4,7 +4,7 @@ The goal of this homework is to implement Search Binary Trees and **validating**
 
 ## Task 1
 
-Edit `bst.py` and implement the Binary Search Tree Class.
+Create a `bst.py` file in the `session.03` and implement the Binary Search Tree Class and the `validate` .
 
 Binary Search Trees must support the following operations:
 
@@ -30,7 +30,7 @@ root
 > Note: if there are duplicates, take the FIRST occurrence of the node according to the in-order traversal
 
 ## Task 2
-Extend the BST to implement a RBTree and implement a module method that VALIDATES a given RBT is valid.
+Create a `rbt.py` module in `session.03` and implement the basics data structure of RBTree. You can extend the BST to implement a RBTree. Next, implement a module method that VALIDATES a given RBT is valid (Hints: you can reuse the code that validates whether a BST is valid)
 
 > NOTE: **Do not implement** fully the RBTree, only the minimum code to enable validating it!
 
