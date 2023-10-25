@@ -4,7 +4,7 @@ The goal of this homework is to implement Search Binary Trees and **validating**
 
 ## Task 1
 
-Create a `bst.py` file in the `session.03` and implement the Binary Search Tree Class and the `validate` .
+Create a `bst.py` file in the `session.03` folder and implement the Binary Search Tree class and the `validate` method.
 
 Binary Search Trees must support the following operations:
 
