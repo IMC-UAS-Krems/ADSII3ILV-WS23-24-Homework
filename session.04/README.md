@@ -55,9 +55,8 @@ Extend your implementation of the graph to implement the following two methods:
 
 Those methods must print on the console the keys of the vertices that they visit in the order they visit them. 
 
-`breadth_first_search` generates a forest, so the expected output takes the form of a nested list (e.g., `[[1,2][3]]`). 
-
-Conversely, since `depth_first_search` can "jump" between nodes when it gets stuck, assume that nodes are visited in the natural order defined by the keys stored in the node.
+`depth_first_search` generates a forest, so the expected output takes the form of a nested list (e.g., `[[1,2][3]]`).
+When `depth_first_search` "jumps" between nodes because it gets stuck, assume that nodes are visited in the natural order defined by the keys stored in the node.
 
 
 ## Tests
